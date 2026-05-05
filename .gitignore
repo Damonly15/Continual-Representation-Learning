@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Except these
+!mae/
+!mae/**
+!vtab/
+!vtab/**
+!imagenet_class_mapping.json
+!split_imagenet.py
+!.gitignore
+
+# Re-ignore common junk inside tracked folders
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.ipynb_checkpoints/
